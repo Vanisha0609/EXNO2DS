@@ -55,9 +55,9 @@ df.nunique()
 ```
 df["Survived"].value_counts()
 ```
-![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/54426581-989c-405e-8cc2-1a6425a2f4a3)
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/54426581-989c-405e-8cc2-1a6425a2f4a3" width="400" height="300">
 
-![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/efad7363-c070-4704-8776-b74da77d04f2)
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/efad7363-c070-4704-8776-b74da77d04f2" width="400" height="300">
 ```
 sns.countplot(data=df,x="Survived",color="pink")
 ```
@@ -78,7 +78,7 @@ df.Pclass.unique()
 df.rename(columns={'sex':'Gender'},inplace=True)
 df
 ```
-<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/27303ebd-d00c-4764-8b77-3b87aa6e4a14" width="400" height="300">
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/27303ebd-d00c-4764-8b77-3b87aa6e4a14" width="500" height="400">
 
 ```
 import seaborn as sns
