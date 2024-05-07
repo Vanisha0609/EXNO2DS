@@ -35,7 +35,7 @@ df
 ```
 df.info()
 ```
-<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/0c33d5af-14a9-4bd8-b86e-1a23becd4288" width="350" height="300">
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/0c33d5af-14a9-4bd8-b86e-1a23becd4288" width="300" height="280">
 
 ```
 df.shape
@@ -72,13 +72,13 @@ df
 df.Pclass.unique()
 ```
 
-![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/ce6e4a56-5fb4-4f50-b311-3093588d912e)
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/ce6e4a56-5fb4-4f50-b311-3093588d912e" width="300" height="300">
 ```
 df.rename(columns={'sex':'Gender'},inplace=True)
 df
 ```
 
-![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/27303ebd-d00c-4764-8b77-3b87aa6e4a14)
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/27303ebd-d00c-4764-8b77-3b87aa6e4a14" width="300" height="300">
 ```
 import seaborn as sns
 df=pd.read_csv("/content/titanic_dataset.csv")
