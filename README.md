@@ -83,38 +83,44 @@ import seaborn as sns
 df=pd.read_csv("/content/titanic_dataset.csv")
 sns.catplot(x="Sex",col='Survived',kind="count",data=df,height=5, aspect=.7,color="pink")
 ```
-
 <img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/04b75a9f-ad61-4da9-aa95-9a9d61edccf0" width="400" height="350">
+
 ```
 custom={"male":"cornflowerblue","female":"lavender"}
 sns.catplot(x='Survived',hue='Sex',data=df,kind='count',palette=custom)
 ```
 <img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/44f1046e-6033-458d-86f7-d5dcb29f4c7f" width="400" height="350">
+
 ```
 df.boxplot(column='Age',by="Survived",color="red")
 ```
 <img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/c386b1b7-3b10-42d7-b461-fb111a831aac" width="400" height="300">
+
 ```
 sns.scatterplot(x=df['Age'],y=df["Fare"],color="steelblue")
 ```
 <img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/69cf0d3a-e506-47bc-8007-a01c05154036" width="400" height="300">
+
 ```
 import matplotlib.pyplot as plt
 fig,ax1=plt.subplots(figsize=(8,5))
 pt=sns.boxplot(ax=ax1,x='Pclass',y='Age',hue='Sex',data=df,palette=custom)
 ```
-<imag src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/4df7b9c8-03f4-4b7b-a4c6-7e3f4708541a" width="400" height="300">
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/4df7b9c8-03f4-4b7b-a4c6-7e3f4708541a" width="400" height="300">
+
 ```
 zenko={1:"skyblue",2:"cornflowerblue",3:"navy"}
 sns.catplot(data=df,col='Survived',x='Sex',hue='Pclass',kind='count',palette=zenko)
 ```
 <img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/8076f5b2-6e8e-4646-9eaf-8d743f7921ce" width="400" heoght="300">
+
 ```
 import seaborn as sns
 corr=df.corr()
 sns.heatmap(corr,annot=True)
 ```
-<imag src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/6118e549-a04b-4882-88a8-e966dc5ac3a6" width=400" height="300">
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/6118e549-a04b-4882-88a8-e966dc5ac3a6" width=400" height="300">
+
 ```
 sns.pairplot(df)
 ```
