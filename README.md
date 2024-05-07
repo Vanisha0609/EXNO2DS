@@ -35,7 +35,8 @@ df
 ```
 df.info()
 ```
-<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/0c33d5af-14a9-4bd8-b86e-1a23becd4288" width="600" height="350">
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/0c33d5af-14a9-4bd8-b86e-1a23becd4288" width="350" height="300">
+
 ```
 df.shape
 ```
