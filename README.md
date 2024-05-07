@@ -45,7 +45,7 @@ df.shape
 df.set_index("PassengerId",inplace=True)
 print(df.set_index)
 ```
-<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/b5ceece4-dcf5-4c80-be96-520278cc4ec2" width="600" height="300">
+![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/b5ceece4-dcf5-4c80-be96-520278cc4ec2)
 
 <img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/62ef7c48-ef95-41cf-9ddb-3e0c0c83f2a6" width="400" height="300">
 ```
@@ -79,7 +79,7 @@ df.Pclass.unique()
 df.rename(columns={'sex':'Gender'},inplace=True)
 df
 ```
-<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/27303ebd-d00c-4764-8b77-3b87aa6e4a14" width="500" height="400">
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/27303ebd-d00c-4764-8b77-3b87aa6e4a14" width="700" height="400">
 
 ```
 import seaborn as sns
