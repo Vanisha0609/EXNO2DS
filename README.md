@@ -119,7 +119,7 @@ import seaborn as sns
 corr=df.corr()
 sns.heatmap(corr,annot=True)
 ```
-<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/6118e549-a04b-4882-88a8-e966dc5ac3a6" width=400" height="300">
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/6118e549-a04b-4882-88a8-e966dc5ac3a6" width="400" height="300">
 
 ```
 sns.pairplot(df)
