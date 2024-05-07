@@ -45,7 +45,7 @@ df.set_index("PassengerId",inplace=True)
 print(df.set_index)
 ```
 ![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/b5ceece4-dcf5-4c80-be96-520278cc4ec2)
-```
+
 ![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/62ef7c48-ef95-41cf-9ddb-3e0c0c83f2a6)
 ```
 df.nunique()
@@ -55,7 +55,7 @@ df.nunique()
 df["Survived"].value_counts()
 ```
 ![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/54426581-989c-405e-8cc2-1a6425a2f4a3)
-```
+
 ![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/efad7363-c070-4704-8776-b74da77d04f2)
 ```
 sns.countplot(data=df,x="Survived",color="pink")
