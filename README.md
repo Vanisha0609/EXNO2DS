@@ -60,8 +60,8 @@ df["Survived"].value_counts()
 ```
 sns.countplot(data=df,x="Survived",color="pink")
 ```
-
 <img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/374a8d82-d2a4-44e0-ad9b-110019f68c5d" width="400" height="300">
+
 ```
 df
 ```
