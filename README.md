@@ -127,4 +127,4 @@ sns.pairplot(df)
 <img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/46c54cb9-783e-4de2-b7ef-7be2b297c0d8" width="500" height="350">
 
 # RESULT
-         Code are sucessfully executed.
+ Thus the Exploratory Data Analysis process is performed successfully on the given data using python code.
