@@ -89,7 +89,6 @@ sns.catplot(x="Sex",col='Survived',kind="count",data=df,height=5, aspect=.7,colo
 custom={"male":"cornflowerblue","female":"lavender"}
 sns.catplot(x='Survived',hue='Sex',data=df,kind='count',palette=custom)
 ```
-
 <img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/44f1046e-6033-458d-86f7-d5dcb29f4c7f" width="400" height="350">
 ```
 df.boxplot(column='Age',by="Survived",color="red")
