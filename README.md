@@ -45,12 +45,13 @@ df.shape
 df.set_index("PassengerId",inplace=True)
 print(df.set_index)
 ```
-<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/b5ceece4-dcf5-4c80-be96-520278cc4ec2" width="400" height="300">
+<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/b5ceece4-dcf5-4c80-be96-520278cc4ec2" width="600" height="300">
 
 <img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/62ef7c48-ef95-41cf-9ddb-3e0c0c83f2a6" width="400" height="300">
 ```
 df.nunique()
 ```
+
 ![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/f243cbce-8d6b-4485-905d-aa5998da3604)
 ```
 df["Survived"].value_counts()
