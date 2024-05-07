@@ -55,9 +55,9 @@ df.nunique()
 ```
 df["Survived"].value_counts()
 ```
-<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/54426581-989c-405e-8cc2-1a6425a2f4a3" width="400" height="300">
+![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/54426581-989c-405e-8cc2-1a6425a2f4a3)
 
-<img src="https://github.com/Vanisha0609/EXNO2DS/assets/119104009/efad7363-c070-4704-8776-b74da77d04f2" width="400" height="300">
+![image](https://github.com/Vanisha0609/EXNO2DS/assets/119104009/efad7363-c070-4704-8776-b74da77d04f2)
 ```
 sns.countplot(data=df,x="Survived",color="pink")
 ```
